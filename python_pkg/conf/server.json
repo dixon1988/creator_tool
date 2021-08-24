@@ -1,0 +1,51 @@
+{
+    "键值帮助":{
+        "service":"打包服务配置，websocket(ip,port)",
+        "cs_ftp":"外测服ftp",
+        "zs_ftp":"正式ftp", 
+        "nc_ftp":"内测服ftp",
+        "share_path":"共享目录",
+        "svn_account":"svn账号密码"
+    },
+
+    "svn_account":
+    {
+        "username":"shensuanzi",
+        "password":"ssz123"
+    },
+    
+    "service":
+    {
+        "ip":"0.0.0.0",
+        "port":8080,
+        "accounts":"admin",
+        "password":"sagDFJ576ds2",
+
+        "ossinfo":
+        {
+            "accessKey":"LTAI4G1QRqEgpCNMQg1RauRe",
+            "accessKeySecret":"P7RWL9Zdsg8hIkrdjAHgU50rVELv2L",
+            "endpoint":"https://oss-cn-hangzhou.aliyuncs.com/",
+            "bucket_name":"hotfk",
+            "update_root":"GamePack/lianmeng"
+        },
+
+        "cs_ftp":{
+            "address":"192.168.10.167",
+            "accounts":"dltftp",
+            "password":"dlt-ftp123"
+        },
+        "nc_ftp":{
+            "address":"192.168.10.167",
+            "accounts":"ssz",
+            "password":"123123"
+        },
+        "zs_ftp":{
+            "address":"192.168.10.167",
+            "accounts":"ftp",
+            "password":"ftp123456"
+        },
+        "win_share_path":"D:/hotUpdate",
+        "mac_share_path":"/Volumes/install/tool_root"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "creator_log_path":"C:/Users/Administrator/.CocosCreator/logs/native.log",
+
+    "配置帮助":{
+        "creator_log":"creator日志文件夹",
+        "game_pkg":"打包内置游戏",
+        "game_root":"子游戏根目录",
+
+        "entry_key":"加密密钥",
+        "entry_ignore_file":"加密忽略文件",
+        "entry_file_type":"加密文件类型",
+        "meta_json":"meta文件生成的对应json描述文件",
+        "ignore_piexl":"小于这个像素宽高的图，在脚本etc2模式中，忽略转换etc2，计算方式(piexl<=w*h)",
+
+        "资源默认":"恢复默认meta中的资源导出配置",
+        "资源加密":"在构建后统一使用资源加密，密钥串在entry_key中，加密配置参考下列配置",
+        "官方etc2":"官方etc2批量处理，由于官方没有做etc2的缓存处理，导致每次构建需要消耗大量时间，此功能暂不使用，等待官方优化，官方etc2也为实现gzip压缩，转换后，资源大了4倍，无法使用",
+        "脚本etc2_0":"在构建后，统一使用win-etcpack转换工具，转换png和jpg为etc2的压缩pkm格式，并进行gzip压缩。所以脚本etc2目前仅支持win环境下处理，暂不支持mac下使用",
+        "脚本etc2_1":"在使用脚本etc2时，缓存在输出目录 cache_etc2_gzip_pkm 文件夹中，根据使用需要删除，删除后整个工程重新构建，需增加 20-30 分钟左右的时间",
+        "meta_json_content":{
+            "desc":"此配置为使用脚本etc2，针对 meta 转换到 json 时的配置，和 转换图片 的忽略配置",
+            "ignore_piexl":"小于这个像素宽高的图，在脚本etc2模式中，忽略转换etc2，计算方式(piexl<=w*h)",
+            "图片格式":"图片格式在官方 json 文件中的编码，png对应0，jpg对应1，etc2压缩格式，统一为pkm，其他属于备注，pkm的png为6@29, pkm的jpg为6@22"
+        }
+    },
+
+    "entry_key":"Kbrapb5pgjuoWtgwaVI74zVMQgupfBSf",
+    "entry_ignore_file":["IconGold.png","IconGold2.png"],
+    "entry_file_type":[".jpg",".png"],
+
+    "meta_json_content":{
+        "ignore_piexl":[24,24],
+        ".png":"0",
+        ".jpg":"1",
+        "png":"0",
+        "jpg":"1",
+
+        "etc2_png":"6@29",
+        "etc2_jpg":"6@28",
+        ".pkm.png":"6@29",
+        ".pkm.jpg":"6@28"
+    },
+
+    "game_root":"/resources/Game",
+    "game_pkg":{
+    }
+}

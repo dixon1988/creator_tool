@@ -1,0 +1,16 @@
+
+Ìæ»»Àý×Ó
+for(var f in u)_(f)}a&&(function(){var i={touchstart:function(i){e.handleTouchesBegin(i),t.focus();if(window.checkFull){
+window.checkFull()
+;}},touchmove:function(t){e.handleTouchesMove(t)},touchend:function(t){e.handleTouchesEnd(t);if(window.setMeskHint){
+window.setMeskHint(window.isShowAdressBar());
+window.scrollToOriginal();}},touchcancel:function(t){e.handleTouchesCancel(t)}},n=void 0;cc.sys.browserType===cc.sys.BROWSER_TYPE_WECHAT_GAME_SUB?(i={onTouchStart:i.touchstart,onTouchMove:i.touchmove,onTouchEnd:i.touchend,onTouchCancel:i.touchcancel},n=function(n){var r=i[n];wx[n]((function(i){if(i.changedTouches){var n=e.getHTMLElementPosition(t),s=document.body;n.left-=s.scrollLeft||0,n.top-=s.scrollTop||0,r(e.getTouchesByEvent(i,n))}}))}):n=function(n){var r=i[n];t.addEventListener(n,(function(i){if(i.changedTouches){var n=e.getHTMLElementPosition(t),s=document.body;n.left-=s.scrollLeft||0,n.top-=s.scrollTop||0,r(e.getTouchesByEvent(i,n)),i.stopPropagation(),i.preventDefault()}}),!1)};
+
+
+if(window.checkFull){
+window.checkFull()
+;}
+
+if(window.setMeskHint){
+window.setMeskHint(window.isShowAdressBar());
+window.scrollToOriginal();}
