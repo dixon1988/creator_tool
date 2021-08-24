@@ -1,4 +1,5 @@
 # creator_tool
+<<<<<<< HEAD
 colorama 模块找不到
 pip3 install colorama
 
@@ -23,3 +24,5 @@ pip3 install oss2
 反编译安装
 pip install uncompyle
 pip3 install uncompyle
+=======
+>>>>>>> ea582b74980ceebc85eea7a0ffb486439bf4ffab
